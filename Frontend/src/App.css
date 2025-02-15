@@ -1,0 +1,12 @@
+/* src/App.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #ff6347; /* Tomato color for headings */
+}

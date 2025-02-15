@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ff6347;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    font-weight: bold;
+  }
+  
+  .filters select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .stall-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stall-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .stall-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    color: #2c3e50;
+    font-size: 20px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .view-menu-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .view-menu-btn:hover {
+    background-color: #ff4500;
+  }
+  /* Add to your CSS file */
+.logout-button {
+  padding: 10px 15px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px; /* Adjust spacing as needed */
+}
+
+.logout-button:hover {
+  background-color: #e7533c;
+  transition: background-color 0.3s ease;
+}

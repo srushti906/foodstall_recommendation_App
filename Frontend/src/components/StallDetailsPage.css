@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding-top: 70px; /* Adjust as necessary */
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #ff6347; /* Tomato color for main headings */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #2c3e50;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    left: 0;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ff6347;
+  }
+  
+  .navbar-brand a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4500;
+  }
+  
+  .btn-custom {
+    background-color: #ff4500;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ff6347;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stall Details Page */
+  .stall-details-page {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  /* Stall Header */
+  .stall-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .stall-header h1 {
+    font-size: 36px;
+  }
+  
+  .stall-location, .stall-cuisine, .stall-rating {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .stall-review {
+    font-size: 16px;
+    color: #777;
+    margin-top: 15px;
+    font-style: italic;
+  }
+  
+  /* Food Items Grid */
+  .food-items-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .food-item-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 30px); /* Responsive grid */
+    box-sizing: border-box;
+  }
+  
+  .food-item-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .food-item-info h3 {
+    color: #ff6347;
+    margin-bottom: 10px;
+  }
+  
+  .food-item-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  .stall-details-page {
+    padding: 20px;
+  }
+  
+  .stall-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .stall-details-grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .stall-image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .stall-info {
+    max-width: 500px;
+  }
+  
+  .stall-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .stall-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .stall-info li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .food-detail-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0; /* Add margin for spacing between buttons */
+    display: inline-block; /* Ensure buttons are inline-block for proper margin */
+}
+
+.food-detail-button:hover {
+    background-color: #e7533c;
+    transition: background-color 0.3s ease;
+}
+
+/* Add to your CSS file */
+.logout-button {
+  padding: 10px 15px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px; /* Adjust spacing as needed */
+}
+
+.logout-button:hover {
+  background-color: #e7533c;
+  transition: background-color 0.3s ease;
+}
+
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .food-items-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .food-item-card {
+      width: 100%;
+    }
+  }
+  
