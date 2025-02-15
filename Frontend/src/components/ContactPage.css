@@ -1,0 +1,89 @@
+/* ContactPage.css */
+.contact-page {
+    padding: 80px 20px; /* Added padding to account for fixed navbar */
+    background-color: #f8f9fa; /* Light background */
+    min-height: 100vh;
+    text-align: center; /* Center text */
+  }
+  
+  /* General styles for headings */
+  .contact-page h1 {
+    color: #ff6347; /* Tomato color for main heading */
+  }
+  
+  /* Form styles */
+  .contact-content {
+    max-width: 600px; /* Limit width for better reading experience */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .form-group {
+    margin: 20px 0; /* Spacing between form elements */
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding */
+    border: 2px solid #ff4500; /* Border color */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #ff6347; /* Change border color on focus */
+  }
+  
+  .form-group textarea {
+    height: 150px; /* Fixed height for textarea */
+    resize: none; /* Disable resizing */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #2c3e50;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #ff6347;
+  }
+  
+  .navbar-brand a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4500;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
